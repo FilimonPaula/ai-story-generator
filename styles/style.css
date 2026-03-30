@@ -1,0 +1,118 @@
+#portfolio .portfolio-row > div {
+    position: relative;
+}
+
+#portfolio .portfolio-row .port-text {
+    background-color: rgba(232, 78, 78, 0.85);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: all .3s ease-out 0s;
+}
+
+#portfolio .portfolio-row .port-text span {
+    display: block;
+    margin-top: 50%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#portfolio .portfolio-row > div:hover .port-text {
+    opacity: 1;
+}
+
+#contact {
+    background-image: url(../images/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.white-text {
+    color: #fff;
+}
+
+
+#contact::before {
+    content: '';
+    background-color: #171122;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#contact .contact-container {
+    position: relative;
+    z-index: 2;
+}
+
+#contact input,
+#contact textarea {
+    background: transparent;
+    border-color: #777;
+    border-radius: 0;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.btn.btn-primary {
+    background-color: #e84e4e;
+    padding: 15px 20px;
+    border-color: #e84e4e;
+    border-radius: 0;
+}
+
+.btn.btn-primary:hover {
+    opacity: 0.9;
+}
+
+h2 + p {
+    color: #777;
+    font-size: 18px;
+}
+
+.light-gray {
+    background-color: #fff0;
+}
+
+h3 {
+    color: #e84e4e;
+}
+
+#footer {
+    background-color: #e84e4e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.col-md-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-4 img{
+    border-radius: 40px;
+}
+
+@media (min-width: 992px) {
+    #contact {
+        padding: 60px 0;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+    
+    #portfolio .portfolio-row .port-text {
+        opacity: 0;
+    }
+}

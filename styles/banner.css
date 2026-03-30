@@ -1,0 +1,67 @@
+#header {
+    background-color: #5a5872;
+    background-image: url(../imagescopy/download\ \(5\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+
+.gray-filter {
+    background-color: #2d2d3e;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#section1 {
+    margin-top: 18%;
+}
+
+.container-banner {
+    z-index: 2;
+    position: relative;
+}
+
+#navbarSupportedContent a {
+    color: #fff;
+}
+
+#header-box {
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-item{
+    padding-right: 118px;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+
+@media (min-width: 992px) {
+    /* #header {
+        height: 800px;
+    }  */
+
+    #header-box {
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+}
+
+

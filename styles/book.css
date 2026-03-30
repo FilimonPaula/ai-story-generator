@@ -1,0 +1,54 @@
+#flipbook .turn-page {
+    background-image: url(../images/book/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#flipbook .turn-page div {
+    padding: 60px;
+}
+
+#flipbook .hard {
+    background-color: #e0e0e0;
+}
+
+#flipbook .hard.first {
+    background-image: url(../images/book/ai-generated.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#flipbook .hard.first #book-title {
+    max-width: 230px;
+    float: right;
+    margin-top: 284px;
+    color: #13301c;
+}
+
+#flipbook .hard.first #book-title .title {
+    font-size: 45px;
+}
+
+#flipbook .turn-page div {
+    position: relative;
+}
+
+#flipbook .page-number {
+    color: #777;
+    bottom: 60px;
+    text-align: center;
+}
+
+#flipbook .the-end {
+    background-image: url(../images/book/flower.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#flipbook .the-end span {
+    margin-top: 410px;
+    display: block;
+    margin-left: 220px;
+    font-size: 40px;
+    color: #355446;
+}

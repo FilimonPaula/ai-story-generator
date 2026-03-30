@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="styles/banner.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/book.css" rel="stylesheet" />
+    <title>Create My Story</title>
+</head>
+
+<body>
+    <section id="section">
+    <div id="header">
+        <div class="gray-filter"></div>
+        <div class="container container-banner">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#section">
+                        <img src="images/logo/logo.svg" alt="Simple" class="img-fluid" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#section1">Create your book</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Category</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section2">Recomandation</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="header-box">
+                <h1>Expand your mind,<br> Create your own book</h1>
+                <p>Generate captivating stories without any cost!</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <div id="content">
+        <div class="light-gray">
+            <div class="container mt-5 mb-5">
+                <section id="section1">
+                <div class=" text-center">
+                    <h2>Create your story</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        labor
+                        dolore.</p>
+                </div>
+                <div id="message"></div>
+                <form id="create-story" class="mt-5 mb-5">
+                    <div class="mb-3">
+                        <label for="names" class="form-label">Character names</label>
+                        <input type="text" class="form-control" id="names" name="names"
+                            placeholder="paula, vivien, amalia">
+                    </div>
+                    <div class="mb-3">
+                        <label for="locations" class="form-label">Locations</label>
+                        <input type="text" class="form-control" id="locations" name="locations"
+                            placeholder="oradea, cluj">
+                    </div>
+                    <div class="mb-3">
+                        <label for="events" class="form-label">Events</label>
+                        <textarea class="form-control" id="events" name="events" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" value="Create my story" class="btn btn-primary" />
+                    </div>
+                </form>
+                <div id="loading" class="d-none">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+
+                <div id="flipbook" class="d-none">
+                    <div class="hard first"> <div id="book-title"><span class="title">Generated story</span><br><span class="small">Author: Vivien and Paula</span></div> </div>
+                    <div class="hard second"></div>
+                </div>
+
+                <div id="story"></div>
+            </section>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+        <section id="section2">
+            <div class="container mt-5 text-center">
+                <h2>Recomandation</h2>
+                <p>Our most loved stories generated by artificial intelligence.</p>
+            </div>
+        
+            <div id="portfolio" class="container-fluid">
+                <div class="row g-0 portfolio-row">
+                    <div class="col-md-3">
+                        <img src="imagescopy/Secret library aesthetic.jpeg" class="img-fluid" alt="port 1" />
+                        <div class="port-text">
+                            <span>Classics</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagescopy/download 10.jpeg" class="img-fluid" alt="port 2" />
+                        <div class="port-text">
+                            <span>Tragedy</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagescopy/download (7).jpeg" class="img-fluid" alt="port 3" />
+                        <div class="port-text">
+                            <span>Science Fiction</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagescopy/in my dreams.jpeg" class="img-fluid" alt="port 4" />
+                        <div class="port-text">
+                            <span>Fantasy</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-0 portfolio-row">
+                    <div class="col-md-3">
+                        <img src="imagescopy/a good girl’s guide to murder.jpeg" class="img-fluid" alt="port 5" />
+                        <div class="port-text">
+                            <span>Mystery</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagescopy/Divine Rivals aesthetic _ Roman & Iris.jpeg" class="img-fluid" alt="port 6" />
+                        <div class="port-text">
+                            <span>Romance</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagescopy/Sabrina the Teenage Witch.jpeg" class="img-fluid" alt="port 7" />
+                        <div class="port-text">
+                            <span>Graphic Novels</span>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="imagescopy/download (6).jpeg" class="img-fluid" alt="port 8" />
+                        <div class="port-text">
+                            <span>Historical Fiction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+    </div> 
+    <div id="footer">
+        <div class="container">
+            Designed and Developed by Filimon Paula &Cylex Tehnologia Informatiei
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="libraries/turnjs4/lib/turn.min.js"></script>
+    <script src="scripts/createStory.js"></script>
+
+</body>
+
+</html>
+
+ <!-- <div class="gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>About Our Creative Proccess</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt
+                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                            duo dolores et erebum </p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dianonumy eirmod tempor invidunt
+                            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                            duo dolores et erebum </p>
+                        <a href="#" class="btn btn-primary">Learn more</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/about.jpg" class="img-fluid" alt="About" />
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="light-gray">
+            <div class="container mt-5 mb-5">
+                <h2 class="text-center">Why Choose Us</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    tempor invidunt labor dolore.</p>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <svg width="89px" height="89px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M7 9.50006L2 12.0001L11.6422 16.8212C11.7734 16.8868 11.839 16.9196 11.9078 16.9325C11.9687 16.9439 12.0313 16.9439 12.0922 16.9325C12.161 16.9196 12.2266 16.8868 12.3578 16.8212L22 12.0001L17 9.50006M7 14.5001L2 17.0001L11.6422 21.8212C11.7734 21.8868 11.839 21.9196 11.9078 21.9325C11.9687 21.9439 12.0313 21.9439 12.0922 21.9325C12.161 21.9196 12.2266 21.8868 12.3578 21.8212L22 17.0001L17 14.5001M2 7.00006L11.6422 2.17895C11.7734 2.11336 11.839 2.08056 11.9078 2.06766C11.9687 2.05622 12.0313 2.05622 12.0922 2.06766C12.161 2.08056 12.2266 2.11336 12.3578 2.17895L22 7.00006L12.3578 11.8212C12.2266 11.8868 12.161 11.9196 12.0922 11.9325C12.0313 11.9439 11.9687 11.9439 11.9078 11.9325C11.839 11.9196 11.7734 11.8868 11.6422 11.8212L2 7.00006Z"
+                                    stroke="#e84e4e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </g>
+                        </svg>
+                        <h3>Bootstrap 5 Based</h3>
+                        <p>Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor
+                            dolore magna .</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <svg fill="#e84e4e" width="87px" height="87px" viewBox="0 0 24.00 24.00"
+                            xmlns="http://www.w3.org/2000/svg" stroke="#e84e4e" stroke-width="0.4800000000000001">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M9,14 L20,14 L20,9 L9,9 L9,14 Z M9,15 L9,20 L18.5,20 C19.3284271,20 20,19.3284271 20,18.5 L20,15 L9,15 Z M8,20 L8,9 L4,9 L4,18.5 C4,19.3284271 4.67157288,20 5.5,20 L8,20 Z M20,8 L20,5.5 C20,4.67157288 19.3284271,4 18.5,4 L5.5,4 C4.67157288,4 4,4.67157288 4,5.5 L4,8 L20,8 Z M3,5.5 C3,4.11928813 4.11928813,3 5.5,3 L18.5,3 C19.8807119,3 21,4.11928813 21,5.5 L21,18.5 C21,19.8807119 19.8807119,21 18.5,21 L5.5,21 C4.11928813,21 3,19.8807119 3,18.5 L3,5.5 Z">
+                                </path>
+                            </g>
+                        </svg>
+                        <h3>Clean Design</h3>
+                        <p>Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor
+                            dolore magna .</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <svg viewBox="0 0 24 24" width="87px" height="87px" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12.9996 3L5.06859 12.6934C4.72703 13.1109 4.55625 13.3196 4.55471 13.4956C4.55336 13.6486 4.62218 13.7939 4.74148 13.8897C4.87867 14 5.14837 14 5.68776 14H11.9996L10.9996 21L18.9305 11.3066C19.2721 10.8891 19.4429 10.6804 19.4444 10.5044C19.4458 10.3514 19.377 10.2061 19.2577 10.1103C19.1205 10 18.8508 10 18.3114 10H11.9996L12.9996 3Z"
+                                    stroke="#e84e4e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </path>
+                            </g>
+                        </svg>
+                        <h3>Cutting-edge Features</h3>
+                        <p>Lorem ipsum dolor sit amet, sadipscing elitr, sed diam nonumy eirmod tempor invidunt labor
+                            dolore magna .</p>
+                    </div>
+                </div>
+            </div> -->
+                <!-- <div id="contact" class="white-text">
+            <div class="container contact-container">
+                <h2>Contact Us</h2>
+                <p class="white-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                    tempor invidunt labor
+                    dolore.</p>
+                <div class="form mt-5">
+                    <form id="contact-form">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="phone" name="phone"
+                                    placeholder="Phone number">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="subject" name="subject"
+                                    placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" name="message" rows="3"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>-->
